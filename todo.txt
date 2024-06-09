@@ -1,0 +1,5 @@
+autoseleccionar usuario logeado a crear hora (+)
+vista para drops para poder editar/eliminar (igual muevo boton) 
+editar las horas
+
+añdir total de horas

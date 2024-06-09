@@ -1,18 +1,20 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link :to="{name: 'home'}">Home</router-link> |
+    <router-link :to="{name: 'drops'}">Lista de drops</router-link> |
+    <router-link :to="{name: 'login'}">Login / Register(FiredBased)</router-link>
   </nav>
   <router-view/>
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
 }
 
 nav {
@@ -27,4 +29,5 @@ nav {
     }
   }
 }
+
 </style>
